@@ -1,0 +1,12 @@
+{
+  "setupTestFrameworkScriptFile": "./setupTests.js",
+  "testMatch": [
+    "**/specs/**/*.js"
+  ],
+  "transform": {
+    "\\.js$": "react-scripts/config/jest/babelTransform"
+  },
+  "globals": {
+    "__baseUrl__": "http://localhost:3000"
+  }
+}
