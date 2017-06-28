@@ -150,7 +150,7 @@ The page object files can be found in `e2e/pageObjects`, let's look at `index.js
 import { until } from 'selenium-webdriver';
 import { driver, defaultTimeout } from '../helpers';
 
-const rootSelector = { id: 'root' };
+const rootSelector = { css: '#root' };
 
 export const root = () => driver.findElement(rootSelector);
 
