@@ -1,4 +1,3 @@
-import { until } from 'selenium-webdriver';
 import { root } from './index';
 
 const introSelector = { css: '.App-intro' };
